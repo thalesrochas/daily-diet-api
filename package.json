@@ -1,0 +1,28 @@
+{
+  "name": "daily-diet-api",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Developed API with learning purposes of testing, routing and request handling in NodeJS",
+  "main": "src/server.ts",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "lint": "eslint src --ext .ts --fix"
+  },
+  "keywords": [],
+  "author": "Thales Rocha",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fastify": "^4.21.0",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.4",
+    "eslint": "^8.47.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  }
+}
