@@ -1,0 +1,12 @@
+# Dependency directories
+node_modules/
+
+# Dotenv environment variables file
+.env
+.env.test
+
+# Database
+db/*.db
+
+# Typescript compiled code
+build/
